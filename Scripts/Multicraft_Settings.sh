@@ -7,7 +7,7 @@ timedatectl set-timezone America/New_York
 timedatectl set-ntp 0
 
 # Install Zip
-apt-get install Zip
+apt-get install zip
 
 # Install rsync
 apt-get install rsync
