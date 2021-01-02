@@ -18,6 +18,11 @@ systemctl disable rsyslog.service
 # Apply Updates
 apt-get update && sudo apt-get upgrade
 
+# Reboot
+reboot now
+
+
+
 
 
 
