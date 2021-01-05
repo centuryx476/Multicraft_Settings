@@ -12,6 +12,9 @@ apt-get install zip
 # Install rsync
 apt-get install rsync
 
+# Install Java
+apt-get install openjdk-8-jdk
+
 # Disable logging
 systemctl disable rsyslog.service
 
@@ -20,9 +23,6 @@ apt-get update && sudo apt-get upgrade
 
 # Reboot
 reboot now
-
-
-
 
 
 
